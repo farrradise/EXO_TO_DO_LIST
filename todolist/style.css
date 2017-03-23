@@ -1,3 +1,9 @@
+/*-------- code couleur --------*/
+/*rgb(28, 35, 79) bleu          */
+/*rgb(252, 252, 252) blanc cassé*/
+/*rgb(252, 35, 35)rose/rouge    */
+/*rgb(48, 123, 150) bleu clair  */
+
 body {
   width: 90%;
   margin: auto;
@@ -8,12 +14,11 @@ body {
 /* ----------------------------------------- */
 
 header {
-  /* ref couleur à réutiliser*/
-  background-color: rgb(28, 35, 79); /*bleu en-tête*/
-  color: rgb(252, 252, 252); /*blanc cassé*/
+  background-color: rgb(28, 35, 79);
+  color: rgb(252, 252, 252);
   height: 18%;
   text-align: center;
-  border-bottom: 8px solid rgb(252, 35, 35); /*le rose/rouge*/
+  border-bottom: 8px solid rgb(252, 35, 35);
   margin-bottom: 3em;
 }
 
@@ -34,7 +39,7 @@ section {
   padding: 1.5em;
   padding-left: 2em;
   height: auto;
-  background-color: rgb(48, 123, 150); /*le bleu clair*/
+  background-color: rgb(48, 123, 150);
   color: rgb(252, 252, 252);
 }
 
@@ -122,10 +127,22 @@ ol p {
 /* ----------------------- */
 
 footer {
-  background-color: rgb(28, 35, 79); /*bleu en-tête*/
-  color: rgb(252, 252, 252); /*blanc cassé*/
-  height: auto;
-  text-align: center;
-  border-top:  8px solid rgb(252, 35, 35); /*le rose/rouge*/
+  background-color: rgb(28, 35, 79);
+  color: rgb(252, 252, 252);
+  height: 100px;
+  text-align: left;
+  border-top:  8px solid rgb(252, 35, 35);
   margin-top: 3em;
+  margin-bottom: 2.5em;
+  padding-bottom: 1.5em;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+footer img {
+  height: 90px;
+  float: left;
+  padding-left: 10%;
+  padding-top: 1em;
+  margin-right: 2em;
 }
