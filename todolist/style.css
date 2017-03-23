@@ -52,11 +52,13 @@ h2 {
 article {
   display: inline-block;
   width: 25%;
-  height: 30%;
+  height: 13em;
   background-color: rgb(28, 35, 79);
   vertical-align: top;
   margin-right: 2.5em;
   border-radius: 1em;
+  padding-left: 6px;
+  padding-right: 6px;
   box-shadow: 2px 4px 3px black;
 }
 
@@ -67,5 +69,43 @@ i {
 
 div div {
   clear: both;
-  margin-bottom: 2em;
+
 } /* rajout de cette propriété pour mettre les articles en dessous de semaine*/
+
+
+/* mise en forme des listes projets */
+/* -------------------------------- */
+
+ol {
+  background-color: white;
+  height: 73%;
+  border-radius: 0em 0em 1em 1em;
+  color: black;
+  font-size: 0.8em;
+  padding-bottom: 0.8em;
+}
+
+li {
+  text-align: left;
+  padding-top: 0.5em;
+}
+
+h3 {
+  font-size: 0.8em;
+  font-style: italic;
+  font-weight: bold;
+  padding: 0px;
+}
+
+
+/* mise en forme du footer */
+/* ----------------------- */
+
+footer {
+  background-color: rgb(28, 35, 79); /*bleu en-tête*/
+  color: rgb(252, 252, 252); /*blanc cassé*/
+  height: auto;
+  text-align: center;
+  border-top:  8px solid rgb(252, 35, 35); /*le rose/rouge*/
+  margin-top: 3em;
+}
