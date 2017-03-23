@@ -35,11 +35,11 @@ section {
   height: auto;
   background-color: rgb(48, 123, 150); /*le bleu clair*/
   color: rgb(252, 252, 252);
-
 }
 
-h3 {
+h2 {
   display: inline-block;
   font-style:italic;
+  font-size: 1.1em;
   text-decoration: underline;
 }
