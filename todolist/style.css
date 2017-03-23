@@ -1,6 +1,7 @@
 body {
   width: 90%;
   margin: auto;
+  text-align: center; /* propriété pour pouvoir centrer mes articles dans la suite mais je comprends pas pourquoi !!!!!!!!!!!*/
 }
 
 /* on démarre avec la mise en page du header */
@@ -42,6 +43,7 @@ h2 {
   font-style:italic;
   font-size: 1.1em;
   text-decoration: underline;
+  text-align: left;
 }
 
 /* mise en forme des articles */
@@ -53,4 +55,17 @@ article {
   height: 30%;
   background-color: rgb(28, 35, 79);
   vertical-align: top;
+  margin-right: 2.5em;
+  border-radius: 1em;
+  box-shadow: 2px 4px 3px black;
 }
+
+i {
+  float :left;
+  text-align: left;
+}
+
+div div {
+  clear: both;
+  margin-bottom: 2em;
+} /* rajout de cette propriété pour mettre les articles en dessous de semaine*/
