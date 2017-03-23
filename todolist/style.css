@@ -43,3 +43,14 @@ h2 {
   font-size: 1.1em;
   text-decoration: underline;
 }
+
+/* mise en forme des articles */
+/* -------------------------- */
+
+article {
+  display: inline-block;
+  width: 25%;
+  height: 30%;
+  background-color: rgb(28, 35, 79);
+  vertical-align: top;
+}
