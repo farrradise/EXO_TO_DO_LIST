@@ -69,7 +69,7 @@ i {
 
 div div {
   clear: both;
-
+  padding-bottom: 1em;
 } /* rajout de cette propriété pour mettre les articles en dessous de semaine*/
 
 
@@ -78,11 +78,12 @@ div div {
 
 ol {
   background-color: white;
-  height: 73%;
+  height: 68%;
   border-radius: 0em 0em 1em 1em;
   color: black;
   font-size: 0.8em;
   padding-bottom: 0.8em;
+  padding-top: 0.8em;
 }
 
 li {
@@ -97,7 +98,26 @@ h3 {
   padding: 0px;
 }
 
+span {
+  background-color: rgb(4, 160, 54);/* vert*/
+  padding: 0.6em;
+  border-radius: 0.5em;
+}
 
+.encours span {
+  background-color: rgb(252, 35, 35);
+  padding: 0.6em;
+  border-radius: 0.5em;
+}
+
+ol p {
+  margin: 0;
+  text-align: left;
+}
+
+.termine li {
+  text-decoration: line-through;
+}
 /* mise en forme du footer */
 /* ----------------------- */
 
