@@ -14,7 +14,7 @@ body {
 /* ---- mise en forme header ---- */
 
 header {
-  height: auto;
+  height: 35%;
   width: 100%;
   background-image: url("img/pattern_gigi.jpg");
   opacity: 0.75;
@@ -32,7 +32,7 @@ header div {
   color: white;
   text-align: center;
   margin-left: 3em;
-  text-shadow: 3px 4px 3px black;
+  text-shadow: 2px 2px 1px black;
   width: 50%;
 }
 
@@ -77,15 +77,26 @@ aside ul {
   opacity: 1;
   text-align: left;
   list-style: none;
-  margin: 2em 1em 1em 1em;
+  margin: 2em 1em 1em 0em;
+  padding-left: 1em;
   color: white;
   font-weight: bold;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 1px black;
 }
 
 aside li {
+  font-size: 0.8em;
   font-weight: normal;
+  padding-left: 1em;
 }
+
+.autre li {
+  list-style-type:square;
+  list-style-position: inside;
+  padding-left: 1em;
+  margin-left: inherit;
+}
+
 /* mise en page div */
 /* ---------------- */
 
