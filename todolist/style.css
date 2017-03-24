@@ -101,6 +101,14 @@ h3 {
   font-style: italic;
   font-weight: bold;
   padding: 0px;
+  margin-left: 0px;
+  text-align: left;
+}
+
+article h3 i {
+  padding-left: 5em;
+  padding-right: 0.5em;
+  margin-right: 0em;
 }
 
 span {
