@@ -51,11 +51,12 @@ header img {
 /* ------------------------------- */
 
 aside, section div {
-     display: inline-block;
-     vertical-align: top;
-     margin-top: 2em;
-/*   align-items: stretch;*/
-/*   align-content: space-between;*/
+  opacity: 0.75;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2em;
+/*align-items: stretch;*/
+/*align-content: space-between;*/
  }
 
 
@@ -63,20 +64,36 @@ aside, section div {
 /* ------------------ */
 
 aside {
-  width: 26%;
-  height: 30em;
-  background-color: rgb(165, 99, 51);
+  width: 25%;
+  height: auto;
+  background-color:rgb(160, 91, 22);/* test couleur pour matcher au motif de l'en-tête rgb(163, 81, 27);mieux ou rgb(193, 106, 48);*/
   margin : 2em 4% 2em 0em;
+  border-right: 8px solid rgb(99, 75, 44);
+  list-style: none;
+  }
+
+
+aside ul {
+  opacity: 1;
+  text-align: left;
+  list-style: none;
+  margin: 2em 1em 1em 1em;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
 }
 
-
+aside li {
+  font-weight: normal;
+}
 /* mise en page div */
 /* ---------------- */
 
 section div {
-  width: 68%;
+  width: 67%;
   height: 30em;
-  background-color:rgb(221, 197, 166);
+  background-color:rgb(224, 180, 136); /*test couleur idem que aside rgb(221, 197, 166);*/
+  border-left: 8px solid rgb(99, 75, 44);
 }
 
 
