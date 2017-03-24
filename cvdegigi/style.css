@@ -2,10 +2,12 @@
 /*     orange :rgb(237, 137, 16)    */
 /* même col pattern rgb(165, 99, 51)*/
 /* marron rgb(99, 75, 44)           */
+/* rgb(221, 197, 166) rose pattern */
 
 body {
   width: 90%;
   margin: 2em auto 1em auto;
+  text-align: center;
 }
 
 
@@ -22,7 +24,7 @@ header {
 }
 
 header div {
-  font-size: 1.5em;
+  font-size: 1em;
   display: inline-block;
   vertical-align: top;
   margin-top: 1em;
@@ -31,22 +33,55 @@ header div {
   text-align: center;
   margin-left: 3em;
   text-shadow: 3px 4px 3px black;
-  width: 60%;
+  width: 50%;
 }
 
 header img {
   display: inline-block;
   opacity: 1;
-  margin: 2em 3em 2em 3em;
+  margin: 2em 3em 2em 5em;
   height: 80%;
-  max-height: 13em;
+  max-height: 10em;
   width: 14%;
+  max-width: 6em;
   box-shadow: 3px 3px 5px black;
 }
 
+/* mise en page section principale */
+/* ------------------------------- */
+
+aside, section div {
+     display: inline-block;
+     vertical-align: top;
+     margin-top: 2em;
+/*   align-items: stretch;*/
+/*   align-content: space-between;*/
+ }
 
 
-/* ------ footer ------ */
+/* mise en page aside */
+/* ------------------ */
+
+aside {
+  width: 26%;
+  height: 30em;
+  background-color: rgb(165, 99, 51);
+  margin : 2em 4% 2em 0em;
+}
+
+
+/* mise en page div */
+/* ---------------- */
+
+section div {
+  width: 68%;
+  height: 30em;
+  background-color:rgb(221, 197, 166);
+}
+
+
+/* mise en page footer */
+/* ------------------- */
 
 footer {
   height: 20%;
@@ -56,5 +91,4 @@ footer {
   border-bottom-right-radius: 1.5em;
   border-bottom-left-radius: 1.5em;
   border-top: 8px solid rgb(99, 75, 44);
-  margin-top: 3em;
 }
