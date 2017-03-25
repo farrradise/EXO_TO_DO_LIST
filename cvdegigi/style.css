@@ -43,7 +43,9 @@ header img {
   opacity: 1;
   margin: 2em 3em 2em 0em;
   height: 80%;
-  max-height: 10em;
+  max-height: 11em;
+  width: 15%;
+  max-width: 9em;
   box-shadow: 3px 3px 5px black;
 }
 
@@ -54,17 +56,15 @@ aside, section div {
   opacity: 0.80;
   display: inline-block;
   vertical-align: top;
-  margin-top: 2em;
- }
+  margin : 2em 1em 2em 0em;}
 
 /* mise en page aside */
 /* ------------------ */
 
 aside {
-  width: 25%;
+  width: 23%;
   height: 30em;
   background-color:rgb(160, 91, 22);/* test couleur pour matcher au motif de l'en-tête rgb(163, 81, 27);mieux ou rgb(193, 106, 48);*/
-  margin : 2em 1em 2em 0em;
   border-right: 8px solid rgb(99, 75, 44);
   list-style: none;
   }
@@ -97,11 +97,12 @@ aside li {
 /* ---------------- */
 
 #main div {
-  width: 70%;
+  width: 68%;
   height: 30em;
   background-color: rgb(249, 216, 172); /* test couleurs rgb(224, 180, 136);/*rgb(252, 249, 68); rgb(221, 197, 166);*/
   border-left: 8px solid rgb(99, 75, 44);
   overflow: scroll;
+
 }
 
 div article {
