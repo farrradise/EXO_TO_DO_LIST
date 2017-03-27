@@ -1,4 +1,4 @@
-# EXO_TO_DO_LIST
+# Exercice TO DO LIST
 
 Ici, vous trouverez le *premier projet* de cette semaine. 
 ---------------------------------------------------------
