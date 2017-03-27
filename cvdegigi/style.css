@@ -58,10 +58,21 @@ aside, section div {
   margin-top : 2em;
   margin-bottom : 2em;}
 
-/*#main {
- justify-content: space-between;
- align-content: space-between;
-}*/
+
+ul {
+  text-align: left;
+  margin: 1em 1em 2em 0em;
+  padding-left: 1em;
+  font-weight: bold;
+  list-style-type: square;
+  list-style-position: inside;
+  }
+
+#main li {
+  font-size: 0.8em;
+  font-weight: normal;
+  padding-left: 1em;
+  }
 
 /* mise en page aside */
 /* ------------------ */
@@ -74,23 +85,6 @@ aside {
   color: white;
   padding-top: 2em;
   text-shadow: 2px 2px 2px black;
-}
-
-
-
-ul {
-  text-align: left;
-  margin: 1em 1em 2em 0em;
-  padding-left: 1em;
-  font-weight: bold;
-  list-style-type: square;
-  list-style-position: inside;
-}
-
-#main li {
-  font-size: 0.8em;
-  font-weight: normal;
-  padding-left: 1em;
 }
 
 .contact li {
